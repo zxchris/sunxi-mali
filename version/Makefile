@@ -1,5 +1,5 @@
 version: version.c
-	gcc -Wall -o $@ $^
+	$(CC) $(CFLAGS) -o $@ $^
 
 clean:
 	rm -f version
