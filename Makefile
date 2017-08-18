@@ -3,6 +3,7 @@
 all: config.mk
 	$(MAKE) -C include
 	$(MAKE) -C lib
+	$(MAKE) -f Makefile.pc
 
 config:
 	rm -f config.mk
